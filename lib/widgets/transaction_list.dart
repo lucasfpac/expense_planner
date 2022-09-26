@@ -10,54 +10,70 @@ class TransactionList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //height: 300,
-      child: SingleChildScrollView(
-        child: Column(
-          children: transactions.map((tx) {
-            return Card(
-              child: Row(
-                children: [
-                  Container(
-                    margin: const EdgeInsets.symmetric(
-                        vertical: 10, horizontal: 15),
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.purple,
-                        width: 2,
-                      ),
-                    ),
-                    padding: const EdgeInsets.all(10),
-                    child: Text(
-                      '€${tx.amount}',
-                      style: const TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20,
-                        color: Colors.purple,
-                      ),
-                    ),
+      height: 600,
+      child: transactions.isEmpty
+          ? Column(
+              children: <Widget>[
+                Text(
+                  'No transactions added yet!',
+                  style: Theme.of(context).textTheme.titleLarge,
+                ),
+                const SizedBox(height: 20),
+                SizedBox(
+                  height: 200,
+                  child: Image.asset(
+                    'assets/images/waiting.png',
+                    fit: BoxFit.cover,
                   ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                ),
+              ],
+            )
+          : ListView.builder(
+              itemBuilder: (ctx, index) {
+                return Card(
+                  child: Row(
                     children: [
-                      Text(tx.title,
+                      Container(
+                        margin: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 15),
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Theme.of(context).colorScheme.primary,
+                            width: 2,
+                          ),
+                        ),
+                        padding: const EdgeInsets.all(10),
+                        child: Text(
+                          '€${transactions[index].amount.toStringAsFixed(2)}',
                           style: const TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 16,
-                          )),
-                      Text(
-                        DateFormat('dd-MM-yyyy').format(tx.date),
-                        style: const TextStyle(
-                          color: Colors.grey,
+                            fontSize: 20,
+                            color: Colors.purple,
+                          ),
                         ),
                       ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            transactions[index].title,
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                          Text(
+                            DateFormat('dd-MM-yyyy')
+                                .format(transactions[index].date),
+                            style: const TextStyle(
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      )
                     ],
-                  )
-                ],
-              ),
-            );
-          }).toList(),
-        ),
-      ),
+                  ),
+                );
+              },
+              itemCount: transactions.length,
+            ),
     );
   }
 }
