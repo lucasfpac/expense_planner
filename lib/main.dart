@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Quicksand',
         colorScheme: ColorScheme.fromSwatch(
           primarySwatch: Colors.purple,
-        ).copyWith(secondary: Colors.amber),
+        ).copyWith(secondary: Color.fromARGB(255, 101, 30, 112)),
         textTheme: const TextTheme(
           headline6: TextStyle(
             fontFamily: 'OpenSans',
