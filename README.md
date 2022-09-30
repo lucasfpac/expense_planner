@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">🚀 This is my first mobile project using Flutter</p>
-<p alingn="center"> This is an Expenses Planner where you can add/remove your daily expenses and track the amount you have spend in the last 7 days </p>
+<p alingn="center"> This is an Expenses Planner where you can add/remove your daily expenses and track the amount you have spent in the last 7 days </p>
 
 <h4 align="center"> 
 	🚧  Under Construction...  🚧
