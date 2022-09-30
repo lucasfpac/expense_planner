@@ -17,6 +17,6 @@
 - [x] Delete Transaction
 - [ ] User login
 
-<img alingn="center" width="396" alt="image" src="https://user-images.githubusercontent.com/44557319/193203738-47479308-5634-4dff-ad30-f44da3175903.png">
+<img width="396" alt="image" src="https://user-images.githubusercontent.com/44557319/193203738-47479308-5634-4dff-ad30-f44da3175903.png" alingn="center">
 <img alingn="center" width="409" alt="image" src="https://user-images.githubusercontent.com/44557319/193203943-91756b46-00fd-4d5e-9463-eb4ea256b155.png">
 <img alingn="center" width="409" alt="image" src="https://user-images.githubusercontent.com/44557319/193204393-707c4998-743e-43d4-880b-0f2332eee47f.png">
