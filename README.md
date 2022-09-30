@@ -1,16 +1,9 @@
-# expense_planner
+<h1 align="center">Expenses Planner</h1>
 
-A new Flutter project.
+<h1 align="center">
+    <a href="https://flutter.dev/">🔗 Flutter</a>
+</h1>
 
-## Getting Started
+<p align="center">🚀 This is my first project using Flutter</p>
+<p alingn="center"> This is an Expenses Planner where you can add/remove your daily expenses and track the amount you have spend in the last 7 days </p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
