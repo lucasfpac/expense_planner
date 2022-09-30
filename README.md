@@ -1,8 +1,10 @@
 <h1 align="center">Expenses Planner</h1>
 
+
 <h1 align="center">
+	![image](https://user-images.githubusercontent.com/44557319/193326680-f3e911d7-242c-4a91-812b-5fdaa64ad332.png)
     <a href="https://flutter.dev/">🔗 Flutter </a>
-<a![image](https://user-images.githubusercontent.com/44557319/193326380-3b5160b9-31fb-4cc5-9e70-8f10eb75879d.png)>
+
 </h1>
 
 <p align="center">🚀 This is my first mobile 📱 project using Flutter 🚀 </p>
