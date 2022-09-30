@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-	![image](https://user-images.githubusercontent.com/44557319/193326680-f3e911d7-242c-4a91-812b-5fdaa64ad332.png)
+    <img width="396" alt="image" src="https://user-images.githubusercontent.com/44557319/193326680-f3e911d7-242c-4a91-812b-5fdaa64ad332.png">		
     <a href="https://flutter.dev/">🔗 Flutter </a>
 
 </h1>
